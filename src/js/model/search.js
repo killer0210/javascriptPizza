@@ -15,7 +15,7 @@ export default class Search {
             return this.result;
 
         } catch (error) {
-            alert('Асуудал' + error)
-        }
+            console.log('Асуудал' + error);
+        };
     }
 }
